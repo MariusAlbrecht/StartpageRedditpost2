@@ -53,10 +53,6 @@ html {
   margin: 6vh 0.6vw 0 0;
 }
 
-.uni_searchbar{
-  margin: 0 auto;
-}
-
 #searchbar_input{
   background-color: var(--nord0);
   border: solid;
@@ -84,11 +80,11 @@ html {
 }
 
 #uni_searchbar{
-  margin: 4vh 00 0 0;
+  margin: 3.666vh 0 0 0;
 }
 
 #uni_searchbar_input{
-  width: 23vw;
+  width: 24vw;
   background-color: var(--nord1);
   border: none;
   border-radius: 0.4em;
