@@ -1,7 +1,7 @@
 function weather(){
-    console.log("weather() has been called");
-    const apikey = "6fd57ceda43d5e2463dbe8d72e571bcd"
-    const cityID = "2867714"
+    console.log("weather() has been called");    
+    const apikey = "Y O U R - A P I - K E Y - H E R E"
+    const cityID = "Y O U R - C I T Y - I D - H E R E"
     var call = 'https://api.openweathermap.org/data/2.5/weather?id=' + cityID + '&appid=' + apikey + '&units=metric';
     fetch(call).then(res => res.json()).then(handler);
 }
