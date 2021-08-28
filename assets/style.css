@@ -1,0 +1,178 @@
+
+@import url("vars.css");
+html {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--nord0);
+  overflow: hidden;
+  font-family: IBM Plex Sans;
+  color: var(--nord6);
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 10vw 10vw 10vw;
+}
+
+.grid {
+  display: block;
+  height: 15em;
+  margin: 1.1vw;
+  border-radius: 0.4em;
+  background-color: var(--nord1);
+}
+
+.grid:hover {
+  background-color: var(--nord2);
+}
+
+.header{
+  margin: 8vh 10.5vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clock {
+  cursor: default;
+   color: inherit;
+  font-size: 5em;
+  font-weight: 800;
+  font-family: Tahoma;
+  margin-left: 0.55vw;
+}
+
+.searchbar{
+  margin: 6vh 0.6vw 0 0;
+}
+
+.uni_searchbar{
+  margin: 0 auto;
+}
+
+#searchbar_input{
+  background-color: var(--nord0);
+  border: solid;
+  border-color: var(--nord1);
+  border-radius: 0.4em;
+  width: 24vw;
+  height: 2.1em;
+   color: inherit;
+  font-weight: bold;
+  padding-left: 0.4em;
+  margin-bottom: 0.2em;
+}
+
+#searchbar_input:hover{
+  background-color: var(--nord1);
+  border-color: var(--nord0);
+}
+
+#searchbar_input:active{
+  background-color: var(--nord3);
+}
+
+#searchbar_input:focus {
+  outline: none !important;
+}
+
+#uni_searchbar{
+  margin: 4vh 0.6vw 0 0;
+}
+
+#uni_searchbar_input{
+  width: 23vw;
+  background-color: var(--nord1);
+  border: none;
+  border-radius: 0.4em;
+  height: 2.1em;
+   color: inherit;
+  font-weight: bold;
+  padding-left: 0.4em;
+  margin-bottom: 0.2em;
+}
+
+#uni_searchbar_input:active{
+  background-color: var(--nord3);
+}
+
+#uni_searchbar_input:focus {
+  outline: none !important;
+}
+
+a{
+  display: block !important;
+  text-decoration: none;
+   color: inherit;
+}
+
+.link{
+  font-weight: 400;
+  margin: 0.6em 0 0 1.1em;
+  color: var(--nord5);
+  font-size: 1.3em;
+}
+
+.link:hover{ 
+  color: var(--nord7);
+}
+
+h2{
+  cursor: default;
+  font-size: 1.7em;
+  text-align: center;
+  text-decoration: none;
+   color: inherit;
+  margin-top: 0.3em;
+  font-weight: 600;
+}
+
+
+#Weather_grid{
+  background-color: var(--nord0) !important;
+}
+
+.Icon{
+  display: inline-block;
+  width: 50%;
+  height: 35%;
+  max-width: 96px;
+  max-height: 96px;
+}
+
+.temperature{
+  display: block;
+  cursor: default;
+   color: inherit;
+  font-size: 3.4em;
+  font-weight: 800;
+  font-family: Tahoma;
+}
+
+#tile_input{
+  background-color: var(--nord1);
+  border: none;
+  border-radius: 0.4em;
+  width: 24vw;
+  height: 4em;
+   color: inherit;
+  font-weight: bold;
+}
+
+#tile_input:hover{
+  background-color: var(--nord2);
+}
+
+#tile_input:active{
+  background-color: var(--nord3);
+}
+
+#tile_input:focus {
+  outline: none !important;
+}
