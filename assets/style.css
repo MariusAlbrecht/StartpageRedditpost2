@@ -25,12 +25,14 @@ html {
   display: block;
   height: 15em;
   margin: 1.1vw;
-  border-radius: 0.4em;
-  background-color: var(--nord1);
+  border-radius: 0.1em;
+  border-color: var(--nord5);
+  border-width: 2px;
+  border-style: solid;
 }
 
 .grid:hover {
-  background-color: var(--nord2);
+  background-color: var(--nord1);
 }
 
 .header{
@@ -41,7 +43,7 @@ html {
 
 .clock {
   cursor: default;
-   color: inherit;
+  color: inherit;
   font-size: 5em;
   font-weight: 800;
   font-family: Tahoma;
@@ -60,23 +62,19 @@ html {
 #searchbar_input{
   background-color: var(--nord0);
   border: solid;
-  border-color: var(--nord1);
-  border-radius: 0.4em;
+  border-color: var(--nord5);
+  border-width: 2px;
+  border-radius: 0.2em;
   width: 24vw;
   height: 2.1em;
    color: inherit;
   font-weight: bold;
-  padding-left: 0.4em;
+  padding-left: 0.5em;
   margin-bottom: 0.2em;
 }
 
 #searchbar_input:hover{
   background-color: var(--nord1);
-  border-color: var(--nord0);
-}
-
-#searchbar_input:active{
-  background-color: var(--nord3);
 }
 
 #searchbar_input:focus {
@@ -84,23 +82,33 @@ html {
 }
 
 #uni_searchbar{
-  margin: 4vh 00 0 0;
+  margin: 4vh 0 0 0;
 }
 
 #uni_searchbar_input{
   width: 23vw;
-  background-color: var(--nord1);
-  border: none;
-  border-radius: 0.4em;
+  background-color: var(--nord0);
+  border: solid;
+  border-color: var(--nord5);
+  border-width: 2px;
+  border-radius: 0.1em;
   height: 2.1em;
    color: inherit;
   font-weight: bold;
-  padding-left: 0.4em;
+  padding-left: 0.5em;
   margin-bottom: 0.2em;
 }
 
+#uni_searchbar_input:hover{
+  background-color: var(--nord5);
+  border: solid;
+  border-color: var(--nord5);
+  border-width: 2px;
+  color: var(--nord0);
+}
+
 #uni_searchbar_input:active{
-  background-color: var(--nord3);
+  color: var(--nord0);
 }
 
 #uni_searchbar_input:focus {
@@ -137,6 +145,7 @@ h2{
 
 #Weather_grid{
   background-color: var(--nord0) !important;
+  border: none !important;
 }
 
 .Icon{
@@ -151,7 +160,7 @@ h2{
 .temperature{
   display: block;
   cursor: default;
-   color: inherit;
+  color: inherit;
   font-size: 3.4em;
   font-weight: 800;
   font-family: Tahoma;
