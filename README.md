@@ -26,5 +26,3 @@
   * get your API key and insert it under `const apikey` in `script.js`
   * get your city ID from the list of cities one can download [here](https://bulk.openweathermap.org/sample/city.list.json.gz) and insert it under `cont citiname` in `script.js`
 * possibly adjust colours by changing the `vars.css` file or creating an entirely new one
-=======
-hello
